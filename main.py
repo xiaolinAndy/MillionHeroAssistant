@@ -121,6 +121,7 @@ def prompt_message():
     4. UC答题
     5. 自适应
     6. QQ
+    7. youku
 """)
     game_type = input("输入节目序号: ")
     if game_type == "1":
@@ -135,6 +136,8 @@ def prompt_message():
         game_type = "自适应"
     elif game_type == "6":
         game_type = "QQ"
+    elif game_type == "7":
+        game_type = "youku"
     else:
         game_type = '自适应'
 
